@@ -385,7 +385,6 @@ steem.api.getActiveVotes(post.author, post.permlink, function(err, result) {
           document.getElementById("videoVoteWeight").value=voteWeight,
           document.getElementById("videoVoteButton").value="Vote "+`${voteWeight}`+"%",
           document.getElementById("voteRangeSlider").classList.remove('hidden'),
-          console.log(voted)
         }
   }
 
